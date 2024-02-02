@@ -34,7 +34,7 @@ const SignIn=()=>{
 
     return<>
 
-        {isError == true ? <div> <h1>some error has occured, if you'r a new user then sign up first  </h1> <Link to='/' className="font-semibold text-blue-600">back to home</Link> </div> :<div className="flex flex-col justify-center items-center w-3/5 h-dvh m-auto md:w-full">
+        {isError == true ? <div> <h1> some error has occured, if you`&apos;`r a new user then sign up first  </h1> <Link to='/' className="font-semibold text-blue-600">back to home</Link> </div> :<div className="flex flex-col justify-center items-center w-3/5 h-dvh m-auto md:w-full">
             <div className="flex flex-col justify-evenly items-center rounded-md shadow-2xl  h-2/5 p-5">
             <FaUnsplash className="" style={{ rotate: "180deg" }} size={64} />
                 <div className="flex flex-col justify-start mt-2 border-b-2 border-black  bg-white ">
