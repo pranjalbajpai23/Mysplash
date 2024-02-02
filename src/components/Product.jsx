@@ -92,7 +92,7 @@ const Product = ({ ProId,user,urls,likes,date,color,download,tags,fav})=>{
                         <p className="text-zinc-700">{color}</p>
                     </div>
                 </div>
-                <div className=" w-1/3 flex items-center justify-end  "> 
+                <div className="lg:flex items-center justify-end  md:flex-column"> 
                     <div className="flex items-center p-1 mr-2" onClick={()=>{handelFavroite(ProId)}}>
                     {
                         (favorite|| fav)  ?<IoHeart color={"red"} size={32}/> : <IoHeartOutline size={32}/>

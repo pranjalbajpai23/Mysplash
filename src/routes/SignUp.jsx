@@ -48,7 +48,7 @@ const SignUp = () => {
 
     return <>
         <div className="flex flex-col justify-center items-center w-3/5 h-dvh m-auto ">
-            <div className="flex flex-col justify-evenly items-center rounded-md shadow-2xl w-2/5 h-2/5">
+            <div className="flex flex-col justify-evenly items-center rounded-md shadow-2xl h-2/5 p-5">
                 <FaUnsplash className="" style={{ rotate: "180deg" }} size={64} />
                 <div className="flex flex-col justify-start mt-2 border-b-2 border-black  bg-white ">
                     <input className="pb-2 focus:bg-slate-100 " type="email" name="" id="" onChange={(e) => setUserName(e.target.value)} placeholder="User Name" />
