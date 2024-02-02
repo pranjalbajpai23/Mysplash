@@ -12,7 +12,7 @@
   
 <h2>💺 Under construction</h2>
 
-*   all your favorite images are not displayed due to limitation of 500 api calls/hr
+*   all your favorite images are not displayed due to limitation of 50 api calls/hr
 *   filtering of favorite images needs to be done on load of page
 
   
