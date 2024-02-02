@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+@layer utilities {
+    @variants responsive {
+        .masonry {
+            column-gap: 1.5em;
+            column-count: 1;
+        }
+
+        .masonry-sm {
+            column-gap: 1.5em;
+            column-count: 2;
+        }
+
+        .masonry-md {
+            column-gap: 1.5em;
+            column-count: 4;
+        }
+
+        .break-inside {
+            break-inside: avoid;
+        }
+
+    }
+}
